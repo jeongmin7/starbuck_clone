@@ -2,10 +2,12 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Starbucks Coffee Korea</title>
 
+    <!--Open Graph-->
+    <!--http://ogp.me/-->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Starbucks" />
     <meta property="og:title" content="Starbucks Coffee Korea" />
@@ -16,6 +18,7 @@
     <meta property="og:image" content="./images/starbucks_seo.jpg" />
     <meta property="og:url" content="https://starbucks.co.kr" />
 
+    <!--Twitter Card-->
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="Starbucks" />
     <meta property="twitter:title" content="Starbucks Coffee Korea" />
@@ -26,22 +29,27 @@
     <meta property="twitter:image" content="./images/starbucks_seo.jpg" />
     <meta property="twitter:url" content="https://starbucks.co.kr" />
 
-    <link rel="icon" href="/favicon.png" />
+    <link rel="icon" href="./favicon.png" />
+    <!--브라우저 스타일 초기화-->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--Google Fonts - 나눔고딕-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Quicksand:wght@500&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
+    <!--Google Material Icons-->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="stylesheet" href="/css/main.css" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
       integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
@@ -54,16 +62,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <!-- SWIPER -->
+    <!--Swiper-->
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css"
     />
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
+    <script defer src="./js/youtube.js"></script>
     <script defer src="./js/main.js"></script>
   </head>
   <body>
-    <!-- HEADER -->
+    <!--HEADER-->
     <header>
       <div class="inner">
         <a href="/" class="logo">
@@ -385,6 +395,7 @@
           </li>
         </ul>
       </div>
+      <!--BADGES-->
       <div class="badges">
         <div class="badge">
           <img src="/images/badge1.jpg" alt="Badge" />
@@ -394,6 +405,7 @@
         </div>
       </div>
     </header>
+
     <!-- VISUAL -->
     <section class="visual">
       <div class="inner">
@@ -434,6 +446,8 @@
         </div>
       </div>
     </section>
+
+    <!--NOTICE-->
     <section class="notice">
       <div class="notice-line">
         <div class="bg-left"></div>
